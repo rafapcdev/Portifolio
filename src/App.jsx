@@ -1,11 +1,11 @@
 import About from "./components/About"
 import Contact from "./components/Contact"
-import Experiences from "./components/Experiences"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 import { useLight } from "./context/useLight"
+import Softskills from "./components/Softskills"
 
 
 function App() {
@@ -18,9 +18,8 @@ function App() {
       <div className="container mx-auto px-15 lg:px-50 py-10 flex flex-col justify-center">
         <Navbar />
         <Hero />
-        <About />
         <Technologies />
-        <Experiences /> 
+        <Softskills />
         <Projects />
         <Contact />
       </div>

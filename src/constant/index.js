@@ -1,18 +1,16 @@
 export const NAVBAR_CONTENT = {
-  logo: "MC",
+  logo: "RC",
   links: {
-    linkedin: "https://www.linkedin.com/in/matheus-pc/",
-    github: "https://github.com/matheus-costa-dev",
-    instagram: "https://www.instagram.com/costa_matheus000/",
-    twitter: "https://x.com/mathe_16"
+    linkedin: "http://www.linkedin.com/in/rafaelpereiracostaa",
+    github: "https://github.com/rafapcdev",
   }
 
 }
 
 export const HERO_CONTENT = {
-  name: "Matheus Pereira Costa",
-  title: "Data scientist Full Stack",
-  brief: "Profissional com experiência em ciência de dados e desenvolvimento full stack, especializado em análise estatística, visualização de dados, automação de processos e criação de soluções integradas."
+  name: "Rafael Pereira Costa",
+  title: "Desenvolvedor Full Stack",
+  brief: "Desenvolvedor Full Stack com experiência em aplicações web, infraestrutura na nuvem (AWS) e automação de processos. Crio sistemas completos, escaláveis e intuitivos, sempre focado em eficiência e impacto real para o negócio. Tecnologias que utilizo: Python · JavaScript · Node.js · HTML · CSS · Tailwind CSS · React · Docker · AWS · MySQL"
 }
 
 export const ABOUT_ME = `Em 2017, concluí o curso de inglês avançado, ampliando minhas habilidades de comunicação e aprendizado contínuo. Nos anos seguintes, mergulhei no mundo da tecnologia e análise de dados, desenvolvendo um olhar crítico para transformar informações em insights estratégicos.
@@ -20,60 +18,6 @@ export const ABOUT_ME = `Em 2017, concluí o curso de inglês avançado, amplian
 Em 2023, formei-me em Administração pela Universidade Federal Fluminense (UFF), consolidando meu conhecimento em gestão e análise de negócios. Paralelamente, aprofundei minha experiência em desenvolvimento web e mobile, dominando tecnologias como Python, R, Node.js, HTML, CSS, Excel e Power BI.
 
 Ao longo da minha trajetória, tenho aplicado estatística e programação para otimizar processos e apoiar a tomada de decisão. Minha paixão por tecnologia e dados me motiva a buscar soluções inovadoras, transformando desafios em oportunidades estratégicas.`
-
-export const EXPERIENCES_CONTENT = [
-  {
-    company: "Freelancer",
-    role: "Desenvolvedor Full Stack",
-    year: "2023 - Atualmente",
-    description: `Atuo como desenvolvedor Full Stack, combinando análise de dados e
-desenvolvimento web para criar soluções completas e eficientes. Tenho
-experiência em R e Python para análise de dados, utilizando Quarto para gerar
-relatórios dinâmicos e interativos que facilitam a interpretação de informações
-complexas.
-No desenvolvimento web, trabalho com Node.js e React para criar aplicativos e
-sites modernos e responsivos. Integro essas soluções com bancos de dados
-como MySQL, PostgreSQL e Firebase, garantindo desempenho,
-escalabilidade e segurança no armazenamento e gerenciamento de dados.`
-  },
-  {
-    company: "ANCINE",
-    role: "Estagiário de ciência de dados",
-    year: "2021 - 2023",
-    description: `Desenvolvimento de relatórios técnicos utilizando linguagens de programação, o que permitiu a automação de
-processos e a apresentação de informações com maior precisão e eficiência.
-Além disso, realizei análises de dados por meio de cálculos estatísticos
-avançados, fornecendo embasamento sólido para a extração de insights e
-a elaboração de estratégias organizacionais. Também atuei na criação de
-gráficos e dashboards interativos, focados em proporcionar uma visualização
-clara e eficiente dos dados, auxiliando na tomada de decisões estratégica.`
-  },
-  {
-    company: "Universidade Federal Fluminense",
-    role: "Estagiário de Administração",
-    year: "2019 - 2020",
-    description: `Realizei as atividades de: apoio técnico aos docentes, organização das salas
-e marcações de reservas, atuei na parte arquivista também, separando entre
-arquivos correntes, intermediários e finais (Guarda permanente e eliminação),
-ajudei a realizar ao inventário da instituição, além de realizar expedições de
-documentos para fora da unidade e responder e-mails.`
-  },
-  {
-    company: "Hospital Getúlio Vargas Filho",
-    role: "Assistente administrativo de RH",
-    year: "2019 - 2021",
-    description: `Realização de operações de atendimento aos funcionários, garantindo
-suporte eficiente e fornecendo orientações necessárias para as demandas do
-dia a dia. Atuação ativa nos processos seletivos, contribuindo para a
-identificação e recrutamento dos melhores talentos disponíveis. Responsável
-pelo cadastro de novos colaboradores no sistema de ponto biométrico,
-assegurando o controle preciso de frequência. Além disso, inclui a coleta de
-assinaturas em documentos essenciais e o arquivamento sistemático de toda
-a documentação, garantindo a organização, a preservação dos registros e a
-fácil acessibilidade no futuro`
-  },
-]
-
 
 // export const PROJECTS_CONTENT = await getRepos("matheus-costa-dev")
 export const PROJECTS_CONTENT = [
@@ -156,10 +100,6 @@ export const PROJECTS_CONTENT = [
 ]
 
 export const CONTACT_CONTENT = {
-  Address: "Rua Waldir Tavares",
-  city: "Itaipuaçu - Maricá",
-  state: "Rio de Janeiro",
-  country: "Brasil",
-  Phone: "21964807239",
-  email: "dev.matheuspc@gmail.com"
+  Phone: "21998812380",
+  email: "raf.pc.dev@gmail.com"
 }

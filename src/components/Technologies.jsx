@@ -6,7 +6,6 @@ import { motion } from "motion/react"
 
 const Techs = [
     { icon: FaPython, color: "text-yellow-500" },
-    { icon: FaRProject, color: "text-blue-500" },
     { icon: FaNodeJs, color: "text-green-500" },
     { icon: FaReact, color: "text-blue-500" },
     { icon: FaHtml5, color: "text-orange-500" },
@@ -21,7 +20,7 @@ function Technologies() {
     return (
         <SepareteContent>
             <section className="flex flex-col gap-10 my-10">
-                <SectionTitle>Tecnologias</SectionTitle>
+                <SectionTitle>Hard skills</SectionTitle>
                 <div className="flex flex-wrap text-5xl gap-5 justify-center">
                     {Techs.map((tech, index) => {
                         const delay = index * .1

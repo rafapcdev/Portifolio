@@ -1,7 +1,9 @@
 import { HERO_CONTENT } from "../constant/index"
 import { SepareteContent } from "./Utility"
-import imgProfile from "../assets/profile.jpeg"
+import imgProfile from "../assets/profile.png"
 import {motion} from "motion/react"
+import cvRafael from "../assets/CV-Rafael.docx";
+
 
 function Hero() {
     return (
@@ -24,6 +26,15 @@ function Hero() {
                     whileInView={{x:0, opacity:1}}
                     transition={{duration:2, delay:1}}
                     className="font-light tracking-wider max-w-xl">{HERO_CONTENT.brief}</motion.p>
+                    <a
+                    className="rounded-2xl p-4 border border-neutral-700 text-2xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
+                    href={cvRafael}
+                    target="_blank"
+                    download="CV-Rafael.docx"
+                    rel="noopener noreferrer"
+                    >
+                    Baixar CV
+                    </a>
                 </div>
                 <div className="w-full lg:w-1/2 p-5">
                     <motion.img 

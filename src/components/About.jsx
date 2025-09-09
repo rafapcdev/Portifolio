@@ -1,6 +1,5 @@
 import { SepareteContent, SectionTitle, slideXMotion } from "./Utility"
 import { ABOUT_ME } from "../constant"
-import aboutImg from "../assets/aboutImg.jpg"
 import { motion } from "motion/react"
 
 function About() {
