@@ -59,7 +59,7 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-03-19T02:16:09.000Z",
     "updated": "2025-03-25T15:08:36.000Z",
-    "homepage": "https://portfolio-brown-gamma-63.vercel.app"
+    "homepage": "https://portifoliorc.netlify.app/"
   },
   {
     "name": "divulgacao-redes-sociais",
@@ -73,12 +73,12 @@ export const PROJECTS_CONTENT = [
     "homepage": ""
   },
   {
-    "name": "TCC",
-    "description": "Tranalho de conclusão de curso aplicando a moderna teoria de portfolio no mercado de criptmoedas",
+    "name": "ReproTrack",
+    "description": "ReproTrack é o aplicativo definitivo para gestão inteligente da reprodução bovina. Desenvolvido para produtores, veterinários e técnicos do agronegócio, o ReproTrack transforma dados em decisões estratégicas, otimizando a performance reprodutiva do rebanho com precisão e praticidade.",
     "url": "https://github.com/matheus-costa-dev/TCC",
     "langs": {
-      "R": 0.639,
-      "TeX": 0.361
+      "React Native": 1
+      
     },
     "created": "2025-02-16T23:56:20.000Z",
     "updated": "2025-03-08T01:48:25.000Z",
