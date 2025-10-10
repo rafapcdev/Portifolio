@@ -29,7 +29,7 @@
   {
     "name": "Portfolio",
     "description": "Portfólio web construído com React e Framer Motion, destacando minhas habilidades em desenvolvimento front-end. Utiliza Tailwind CSS para design responsivo e Vite para otimização. Animações fluidas com Framer Motion e tipografia do Google Fonts.",
-    "url": "https://github.com/matheus-costa-dev/Portfolio",
+    "url": "",
     "langs": {
       "JavaScript": 0.97,
       "CSS": 0.015,
@@ -40,32 +40,9 @@
     "homepage": "https://portfolio-brown-gamma-63.vercel.app"
   },
   {
-    "name": "divulgacao-redes-sociais",
-    "description": "Aplicação que faz o download de shorts do youtube para ser publicado nas redes sociasi usando IA para gerar os textos com hashtags apropriadas",
-    "url": "https://github.com/matheus-costa-dev/divulgacao-redes-sociais",
-    "langs": {
-      "Python": 1
-    },
-    "created": "2025-03-22T12:16:28.000Z",
-    "updated": "2025-03-25T14:20:48.000Z",
-    "homepage": ""
-  },
-  {
-    "name": "TCC",
-    "description": "Tranalho de conclusão de curso aplicando a moderna teoria de portfolio no mercado de criptmoedas",
-    "url": "https://github.com/matheus-costa-dev/TCC",
-    "langs": {
-      "R": 0.639,
-      "TeX": 0.361
-    },
-    "created": "2025-02-16T23:56:20.000Z",
-    "updated": "2025-03-08T01:48:25.000Z",
-    "homepage": ""
-  },
-  {
     "name": "One-Oracle",
     "description": "Um projeto o qual contêm todos os aprendizados do programa One da Oracle",
-    "url": "https://github.com/matheus-costa-dev/One-Oracle",
+    "url": "rafapcdev.github.io/One-Oracle/",
     "langs": {
       "HTML": 0.372,
       "JavaScript": 0.33,
@@ -73,6 +50,6 @@
     },
     "created": "2025-02-17T14:19:50.000Z",
     "updated": "2025-03-01T19:50:44.000Z",
-    "homepage": "https://matheus-costa-dev.github.io/One-Oracle/"
+    "homepage": "rafapcdev.github.io/One-Oracle/"
   }
 ]
