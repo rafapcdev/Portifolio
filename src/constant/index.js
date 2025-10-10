@@ -24,7 +24,7 @@ export const PROJECTS_CONTENT = [
   {
     "name": "TaskMaster",
     "description": "Um aplicativo web desenvolvido em React para organização pessoal ou em equipe, com:  Interface moderna com efeitos visuais (gradient text, typewriter animation).  Navegação intuitiva (React Router) entre login e página principal.  Design responsivo (Tailwind CSS) para uso em desktop e mobile.  Foco em usabilidade: Botões claros, feedback visual",
-    "url": "https://github.com/matheus-costa-dev/TaskMaster",
+    "url": "",
     "langs": {
       "JavaScript": 0.982,
       "HTML": 0.012,
@@ -37,7 +37,7 @@ export const PROJECTS_CONTENT = [
   {
     "name": "churraspy",
     "description": "Aplicação que  visa calcular o que será necessário para realizar um churrasco. Os dados dos alimentos e bebidas são oriundos de um webscrapping feito no site do supermercado princesa e armazenado  no banco de dados",
-    "url": "https://github.com/matheus-costa-dev/churraspy",
+    "url": "",
     "langs": {
       "Python": 0.442,
       "HTML": 0.347,
@@ -46,12 +46,11 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-10T14:49:35.000Z",
     "updated": "2025-04-02T13:23:43.000Z",
-    "homepage": "https://matheuspc.pythonanywhere.com/"
+    "homepage": ""
   },
   {
     "name": "Portfolio",
     "description": "Portfólio web construído com React e Framer Motion, destacando minhas habilidades em desenvolvimento front-end. Utiliza Tailwind CSS para design responsivo e Vite para otimização. Animações fluidas com Framer Motion e tipografia do Google Fonts.",
-    "url": "https://github.com/matheus-costa-dev/Portfolio",
     "langs": {
       "JavaScript": 0.97,
       "CSS": 0.015,
@@ -62,20 +61,9 @@ export const PROJECTS_CONTENT = [
     "homepage": "https://portifoliorc.netlify.app/"
   },
   {
-    "name": "divulgacao-redes-sociais",
-    "description": "Aplicação que faz o download de shorts do youtube para ser publicado nas redes sociasi usando IA para gerar os textos com hashtags apropriadas",
-    "url": "https://github.com/matheus-costa-dev/divulgacao-redes-sociais",
-    "langs": {
-      "Python": 1
-    },
-    "created": "2025-03-22T12:16:28.000Z",
-    "updated": "2025-03-25T14:20:48.000Z",
-    "homepage": ""
-  },
-  {
     "name": "ReproTrack",
     "description": "ReproTrack é o aplicativo definitivo para gestão inteligente da reprodução bovina. Desenvolvido para produtores, veterinários e técnicos do agronegócio, o ReproTrack transforma dados em decisões estratégicas, otimizando a performance reprodutiva do rebanho com precisão e praticidade.",
-    "url": "https://github.com/matheus-costa-dev/TCC",
+    "url": "",
     "langs": {
       "React Native": 1
       
@@ -87,7 +75,7 @@ export const PROJECTS_CONTENT = [
   {
     "name": "One-Oracle",
     "description": "Um projeto o qual contêm todos os aprendizados do programa One da Oracle",
-    "url": "https://github.com/matheus-costa-dev/One-Oracle",
+    "url": "rafapcdev.github.io/One-Oracle/",
     "langs": {
       "HTML": 0.372,
       "JavaScript": 0.33,
@@ -95,7 +83,7 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-17T14:19:50.000Z",
     "updated": "2025-03-01T19:50:44.000Z",
-    "homepage": "https://matheus-costa-dev.github.io/One-Oracle/"
+    "homepage": "rafapcdev.github.io/One-Oracle/"
   }
 ]
 
