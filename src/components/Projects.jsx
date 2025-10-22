@@ -59,7 +59,6 @@ function Projects() {
                                 initial={"hidden"}
                                 whileInView={"visible"}
                                 className="flex gap-4 text-2xl">
-                                    <a href={project.url} target="_blank"><FaGithub /></a>
                                     <a href={project.homepage} target="_blank"><LuExternalLink /></a>
                                 </motion.div>
                             </div>
