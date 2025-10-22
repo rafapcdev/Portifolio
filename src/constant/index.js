@@ -75,7 +75,7 @@ export const PROJECTS_CONTENT = [
   {
     "name": "One-Oracle",
     "description": "Um projeto o qual contêm todos os aprendizados do programa One da Oracle",
-    "url": "rafapcdev.github.io/One-Oracle/",
+    "url": "https://one-oracle.netlify.app/",
     "langs": {
       "HTML": 0.372,
       "JavaScript": 0.33,
@@ -83,7 +83,7 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-17T14:19:50.000Z",
     "updated": "2025-03-01T19:50:44.000Z",
-    "homepage": "rafapcdev.github.io/One-Oracle/"
+    "homepage": "https://one-oracle.netlify.app/"
   }
 ]
 
