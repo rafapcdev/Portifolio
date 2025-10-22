@@ -66,7 +66,7 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-16T23:56:20.000Z",
     "updated": "2025-03-08T01:48:25.000Z",
-    "homepage": ""
+    "homepage": "https://github.com/rafapcdev/app_fazenda"
   },
   {
     "name": "One-Oracle",
