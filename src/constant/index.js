@@ -42,7 +42,7 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-10T14:49:35.000Z",
     "updated": "2025-04-02T13:23:43.000Z",
-    "homepage": "matheuspc.pythonanywhere.com/"
+    "homepage": "https://github.com/rafapcdev/churraspy"
   },
   {
     "name": "Portfolio",
