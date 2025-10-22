@@ -2,7 +2,7 @@
   {
     "name": "TaskMaster",
     "description": "Um aplicativo web desenvolvido em React para organização pessoal ou em equipe, com:  Interface moderna com efeitos visuais (gradient text, typewriter animation).  Navegação intuitiva (React Router) entre login e página principal.  Design responsivo (Tailwind CSS) para uso em desktop e mobile.  Foco em usabilidade: Botões claros, feedback visual",
-    "url": "https://github.com/matheus-costa-dev/TaskMaster",
+    "url": "",
     "langs": {
       "JavaScript": 0.982,
       "HTML": 0.012,
@@ -15,7 +15,7 @@
   {
     "name": "churraspy",
     "description": "Aplicação que  visa calcular o que será necessário para realizar um churrasco. Os dados dos alimentos e bebidas são oriundos de um webscrapping feito no site do supermercado princesa e armazenado  no banco de dados",
-    "url": "https://github.com/matheus-costa-dev/churraspy",
+    "url": "",
     "langs": {
       "Python": 0.442,
       "HTML": 0.347,
@@ -37,7 +37,7 @@
     },
     "created": "2025-03-19T02:16:09.000Z",
     "updated": "2025-03-25T15:08:36.000Z",
-    "homepage": "https://portfolio-brown-gamma-63.vercel.app"
+    "homepage": ""
   },
   {
     "name": "One-Oracle",
