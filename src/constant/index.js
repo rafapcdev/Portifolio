@@ -13,11 +13,7 @@ export const HERO_CONTENT = {
   brief: "Desenvolvedor Full Stack com experiência em aplicações web, infraestrutura na nuvem (AWS) e automação de processos. Crio sistemas completos, escaláveis e intuitivos, sempre focado em eficiência e impacto real para o negócio. Tecnologias que utilizo: Python · JavaScript · Node.js · HTML · CSS · Tailwind CSS · React · Docker · AWS · MySQL"
 }
 
-export const ABOUT_ME = `Em 2017, concluí o curso de inglês avançado, ampliando minhas habilidades de comunicação e aprendizado contínuo. Nos anos seguintes, mergulhei no mundo da tecnologia e análise de dados, desenvolvendo um olhar crítico para transformar informações em insights estratégicos.
-
-Em 2023, formei-me em Administração pela Universidade Federal Fluminense (UFF), consolidando meu conhecimento em gestão e análise de negócios. Paralelamente, aprofundei minha experiência em desenvolvimento web e mobile, dominando tecnologias como Python, R, Node.js, HTML, CSS, Excel e Power BI.
-
-Ao longo da minha trajetória, tenho aplicado estatística e programação para otimizar processos e apoiar a tomada de decisão. Minha paixão por tecnologia e dados me motiva a buscar soluções inovadoras, transformando desafios em oportunidades estratégicas.`
+export const ABOUT_ME = ``
 
 // export const PROJECTS_CONTENT = await getRepos("matheus-costa-dev")
 export const PROJECTS_CONTENT = [
