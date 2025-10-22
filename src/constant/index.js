@@ -37,7 +37,7 @@ export const PROJECTS_CONTENT = [
   {
     "name": "churraspy",
     "description": "Aplicação que  visa calcular o que será necessário para realizar um churrasco. Os dados dos alimentos e bebidas são oriundos de um webscrapping feito no site do supermercado princesa e armazenado  no banco de dados",
-    "url": "",
+    "url": "https://private-user-images.githubusercontent.com/197130795/427557281-a110362d-3312-494e-8286-20487b708ab6.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjExMDQ5NzksIm5iZiI6MTc2MTEwNDY3OSwicGF0aCI6Ii8xOTcxMzA3OTUvNDI3NTU3MjgxLWExMTAzNjJkLTMzMTItNDk0ZS04Mjg2LTIwNDg3YjcwOGFiNi5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAyMlQwMzQ0MzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wZDgyYTBiN2NlYmRiMDAyZWMzMTJhYTAzZTc1YjhmNGNjMzE4YzQ5MDI4MDRmNWY3MmMxYTYyZjdmNjk3OWNkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.U8Bjs4pzGX0N87ZjBIHzgVTAdKHnDlCqHwutefC9dWY",
     "langs": {
       "Python": 0.442,
       "HTML": 0.347,
