@@ -15,12 +15,12 @@ function Contact() {
                             variants={slideXMotion(-100, .1)}
                             initial={"hidden"}
                             whileInView={"visible"}
-                            href={`mailto:${CONTACT_CONTENT.email}?subject=${encodeURIComponent("Contato")}&body=${"Olá matheus, vi seu site e gostaria de saber mais a respeito de você."}`}><MdEmail /></motion.a>
+                            href={`mailto:${CONTACT_CONTENT.email}?subject=${encodeURIComponent("Contato")}&body=${"Olá Rafael, vi seu site e gostaria de saber mais a respeito de você."}`}><MdEmail /></motion.a>
                         <motion.a
                             variants={slideXMotion(100, .1)}
                             initial={"hidden"}
                             whileInView={"visible"}
-                            href={`https://wa.me/+55${CONTACT_CONTENT.Phone}?text=${encodeURIComponent("Olá matheus, vi seu site e gostaria de saber mais a respeito de você.")}`}><FaWhatsapp /></motion.a>
+                            href={`https://wa.me/+55${CONTACT_CONTENT.Phone}?text=${encodeURIComponent("Olá Rafael, vi seu site e gostaria de saber mais a respeito de você.")}`}><FaWhatsapp /></motion.a>
                     </div>
                     <motion.div 
                       variants={slideYMotion(50, .2)}
