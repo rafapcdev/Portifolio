@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constant/index"
 import { SepareteContent } from "./Utility"
 import imgProfile from "../assets/profile.png"
 import {motion} from "motion/react"
-import cvRafael from "../assets/CV-Rafael.docx";
+import cvRafael from "../assets/CV-RafaelCosta.docx";
 
 
 function Hero() {
@@ -30,7 +30,7 @@ function Hero() {
                     className="rounded-2xl p-4 border border-neutral-700 text-2xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
                     href={cvRafael}
                     target="_blank"
-                    download="CV-Rafael.docx"
+                    download="CV-RafaelCosta.docx"
                     rel="noopener noreferrer"
                     >
                     Baixar CV
