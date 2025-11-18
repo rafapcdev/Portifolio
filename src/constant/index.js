@@ -9,8 +9,8 @@ export const NAVBAR_CONTENT = {
 
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
-  title: "Desenvolvedor Full Stack",
-  brief: "Desenvolvedor Full Stack com experiência em aplicações web, infraestrutura na nuvem (AWS) e automação de processos. Crio sistemas completos, escaláveis e intuitivos, sempre focado em eficiência e impacto real para o negócio. Tecnologias que utilizo: Python · JavaScript · Node.js · HTML · CSS · Tailwind CSS · React · Docker · AWS · MySQL"
+  title: "Software engineer | DevOps & Cloud Engineer",
+  brief: "Engenheiro de Software com especialização em DevOps e Cloud. Com background em Análise e Desenvolvimento de Sistemas,utilizo minha experiência em programação (Python, Java, JavaScript) e metodologias ágeis (Scrum) para ir além do simplesgerenciamento de infraestrutura. Sou certificado OCI Foundations e meu foco é criar automações robustas, otimizar esteiras deCI/CD e colaborar ativamente com equipes de desenvolvimento para garantir a máxima performance e confiabilidade dasaplicações. Possuo inglês básico."
 }
 
 export const ABOUT_ME = ``

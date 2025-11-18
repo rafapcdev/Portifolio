@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constant/index"
 import { SepareteContent } from "./Utility"
 import imgProfile from "../assets/profile.png"
 import {motion} from "motion/react"
-import cvRafael from "../assets/CV-RafaelCosta.docx";
+import cvRafael from "../assets/CV-RafaelCosta.pdf";
 
 
 function Hero() {
@@ -10,7 +10,7 @@ function Hero() {
         <SepareteContent>
             <div className="flex flex-col md:flex-row my-20 gap-4 items-center">
 
-                <div className="w-full lg:w-1/2 flex flex-col gap-4  ">
+                <div className="w-full lg:w-1/2 flex flex-col gap-4">
                     <motion.h1 
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
@@ -30,7 +30,7 @@ function Hero() {
                     className="rounded-2xl p-4 border border-neutral-700 text-2xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
                     href={cvRafael}
                     target="_blank"
-                    download="CV-RafaelCosta.docx"
+                    download="CV-RafaelCosta.pdf"
                     rel="noopener noreferrer"
                     >
                     Baixar CV
