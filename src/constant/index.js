@@ -9,8 +9,8 @@ export const NAVBAR_CONTENT = {
 
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
-  title: "Software engineer | DevOps & Cloud Engineer",
-  brief: "Engenheiro de Software com especialização em DevOps e Cloud. Com background em Análise e Desenvolvimento de Sistemas,utilizo minha experiência em programação (Python, Java, JavaScript) e metodologias ágeis (Scrum) para ir além do simplesgerenciamento de infraestrutura. Sou certificado OCI Foundations e meu foco é criar automações robustas, otimizar esteiras deCI/CD e colaborar ativamente com equipes de desenvolvimento para garantir a máxima performance e confiabilidade dasaplicações. Possuo inglês básico."
+  title: "Software Engineer | DevOps & Cloud Engineer",
+  brief: "Engenheiro de Software com especialização em DevOps e Cloud, experiente em automação, pipelines CI/CD, infraestrutura escalável e observabilidade. Forte atuação com Python, Java e JavaScript, integrando práticas de desenvolvimento e metodologias ágeis (Scrum). Atuação como Product Owner e Scrum Master, liderando análise de requisitos, gestão de backlog, documentação ágil e modelagem de dados. Diretor Técnico designado em cooperativa de tecnologia, responsável por visão arquitetural, definição de padrões técnicos e alinhamento estratégico. Certificado OCI Foundations, com foco em confiabilidade, eficiência operacional e entrega contínua de software."
 }
 
 export const ABOUT_ME = ``
