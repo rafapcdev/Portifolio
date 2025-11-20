@@ -10,13 +10,27 @@ export const NAVBAR_CONTENT = {
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
   title: "Software Engineer | DevOps & Cloud Engineer",
-  brief: "Engenheiro de Software com especialização em DevOps e Cloud, experiente em automação, pipelines CI/CD, infraestrutura escalável e observabilidade. Forte atuação com Python, Java e JavaScript, integrando práticas de desenvolvimento e metodologias ágeis (Scrum). Atuação como Product Owner e Scrum Master, liderando análise de requisitos, gestão de backlog, documentação ágil e modelagem de dados. Diretor Técnico designado em cooperativa de tecnologia, responsável por visão arquitetural, definição de padrões técnicos e alinhamento estratégico. Certificado OCI Foundations, com foco em confiabilidade, eficiência operacional e entrega contínua de software."
-}
+  brief: "tenho 29 anos, sou um apaixonado por tecnologia com mais de 5 anos de experiência na área técnica. Minha base sólida vem da formação técnica em Telecomunicações e, atualmente, aprofundo meus conhecimentos graduando-me em Análise e Desenvolvimento de Sistemas.Como Software Engineer com foco em DevOps e Cloud, atuo na automação de pipelines CI/CD e infraestrutura escalável, unindo minha experiência em redes com desenvolvimento moderno em Python, Java e JavaScript. Também possuo vivência em metodologias ágeis (Scrum), atuando como PO e Scrum Master.Além da carreira corporativa, exerço liderança social como Diretor Técnico voluntário na Cooper Start (Maricá/RJ). Nessa função, sou responsável pela visão arquitetural e estratégia técnica da cooperativa, buscando impacto através da tecnologia. Sou certificado OCI Foundations e focado em entrega contínua e eficiência operacional."
+} 
 
 export const ABOUT_ME = ``
 
 
 export const PROJECTS_CONTENT = [
+   {
+    "name": "CPNU Analytics - Sistema de Classificação e Estimativa",
+    "description": "Aplicação web completa desenvolvida em equipe entre eu e meu irmao (Matheus Pereira Costa, Analista de Dados) para auxiliar candidatos do Concurso Público Nacional Unificado (CPNU) a monitorarem suas posições. O diferencial do projeto é a utilização de um modelo de Inteligência Artificial que processa grandes volumes de dados públicos e interações dos usuários para gerar estimativas de nota e previsões de classificação em tempo real com maior precisão.",
+    "url": "",
+    "langs": {
+      "TypeScript": 0.65,
+      "Python": 0.20,
+      "SQL": 0.10,
+      "CSS": 0.05
+    },
+    "created": "2025-07-01T17:47:26.000Z",
+    "updated": "2025-10-03T00:46:01.000Z",
+    "homepage": "https://www.consultacpnu.com.br/"
+  },
   {
     "name": "TaskMaster",
     "description": "Um aplicativo web desenvolvido em React para organização pessoal ou em equipe, com:  Interface moderna com efeitos visuais (gradient text, typewriter animation).  Navegação intuitiva (React Router) entre login e página principal.  Design responsivo (Tailwind CSS) para uso em desktop e mobile.  Foco em usabilidade: Botões claros, feedback visual",

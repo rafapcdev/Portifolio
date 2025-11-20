@@ -1,5 +1,6 @@
+"use client";
 import { SepareteContent, SectionTitle } from "./Utility"
-import { FaPython, FaRProject, FaNodeJs, FaReact, FaHtml5, FaCss3 } from "react-icons/fa"
+import { FaPython, FaNodeJs, FaReact, FaHtml5, FaCss3, FaJava, FaGithub, FaLinux, FaDocker, FaAws} from "react-icons/fa"
 import { BiLogoPostgresql } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
 import { motion } from "motion/react"
@@ -12,6 +13,12 @@ const Techs = [
     { icon: FaCss3, color: "text-blue-700" },
     { icon: BiLogoPostgresql, color: "text-blue-500" },
     { icon: DiMysql, color: "text-blue-400" },
+    { icon: FaJava, color: "text-blue-400" },
+    { icon: FaGithub, color: "text-blue-400" },
+    { icon: FaLinux, color: "text-blue-400" },
+    { icon: FaDocker, color: "text-blue-400" },
+    { icon: FaLinux, color: "text-blue-400" },
+    { icon: FaAws, color: "text-blue-400" },
 ]
 
 function Technologies() {
@@ -33,6 +40,7 @@ function Technologies() {
                                 }}
                                 transition={{
                                     duration: 4,
+                                    delay: delay,
                                     ease: "easeInOut",
                                     repeat: Infinity,
                                     repeatType:"mirror",
