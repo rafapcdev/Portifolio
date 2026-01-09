@@ -9,9 +9,17 @@ export const NAVBAR_CONTENT = {
 
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
-  title: "Software Engineer | DevOps & Cloud Engineer",
-  brief: "tenho 29 anos, sou um apaixonado por tecnologia com mais de 5 anos de experiência na área técnica. Minha base sólida vem da formação técnica em Telecomunicações e, atualmente, aprofundo meus conhecimentos graduando-me em Análise e Desenvolvimento de Sistemas.Como Software Engineer com foco em DevOps e Cloud, atuo na automação de pipelines CI/CD e infraestrutura escalável, unindo minha experiência em redes com desenvolvimento moderno em Python, Java e JavaScript. Também possuo vivência em metodologias ágeis (Scrum), atuando como PO e Scrum Master.Além da carreira corporativa, exerço liderança social como Diretor Técnico voluntário na Cooper Start (Maricá/RJ). Nessa função, sou responsável pela visão arquitetural e estratégia técnica da cooperativa, buscando impacto através da tecnologia. Sou certificado OCI Foundations e focado em entrega contínua e eficiência operacional."
-} 
+  title: "Engenheiro de Software",
+  brief: `Olá, tenho 29 anos e mais de 5 anos de estrada na tecnologia, minha base técnica vem das Telecomunicações e se consolida hoje na graduação em Análise e Desenvolvimento de Sistemas.
+  
+  No meu dia a dia, foco no desenvolvimento de soluções modernas e escaláveis. Minha stack principal gira em torno de Python, JavaScript e TypeScript, unindo a lógica de backend com a interatividade de frontend.
+  
+  Mas não é só sobre código: tenho forte vivência em metodologias ágeis (Scrum). Gosto de atuar na ponte entre o negócio e a técnica, com atuações pontuais como Product Owner e Scrum Master, sempre visando garantir que o produto final entregue valor real.
+  
+  Impacto Social & Liderança: Além dos projetos corporativos, atuo como Diretor Técnico voluntário na Devmar (Maricá/RJ). Lá, sou responsável pela visão arquitetural e estratégia técnica, usando a tecnologia como ferramenta de transformação social.
+  
+  Certificado OCI Foundations | Foco em Eficiência Operacional | Resolver problemas`
+};
 
 export const ABOUT_ME = ``
 
