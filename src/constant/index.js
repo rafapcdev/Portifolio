@@ -10,7 +10,7 @@ export const NAVBAR_CONTENT = {
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
   title: "Software Engineer | DevOps & Cloud Engineer",
-  brief: "tenho 29 anos, sou um apaixonado por tecnologia com mais de 5 anos de experiência na área técnica. Minha base sólida vem da formação técnica em Telecomunicações e, atualmente, aprofundo meus conhecimentos graduando-me em Análise e Desenvolvimento de Sistemas.Como Software Engineer com foco em DevOps e Cloud, atuo na automação de pipelines CI/CD e infraestrutura escalável, unindo minha experiência em redes com desenvolvimento moderno em Python, Java e JavaScript. Também possuo vivência em metodologias ágeis (Scrum), atuando como PO e Scrum Master.Além da carreira corporativa, exerço liderança social como Diretor Técnico voluntário na Cooper Start (Maricá/RJ). Nessa função, sou responsável pela visão arquitetural e estratégia técnica da cooperativa, buscando impacto através da tecnologia. Sou certificado OCI Foundations e focado em entrega contínua e eficiência operacional."
+  brief: "Especialista em desenvolvimento de software com foco em performance e infraestrutura. Com domínio em Java e Python (FastAPI), projeto APIs de alta disponibilidade e interfaces modernas em React/Next.js. Minha certificação em Oracle Cloud Infrastructure (OCI) me permite desenhar soluções que otimizam recursos e reduzem custos operacionais. Se você busca uma entrega técnica de alto nível, com código limpo e arquitetura pensada para escalabilidade, estou pronto para viabilizar seu projeto."
 } 
 
 export const ABOUT_ME = ``
