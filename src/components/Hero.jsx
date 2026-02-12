@@ -32,8 +32,6 @@ function Hero() {
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
                     transition={{duration:1.5, delay:1}}
-                    className="font-light tracking-wider max-w-xl">{HERO_CONTENT.brief}</motion.p>
-                    <a
                     className="rounded-2xl p-4 border border-neutral-700 text-2xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
                     href={cvRafael}
                     target="_blank"
