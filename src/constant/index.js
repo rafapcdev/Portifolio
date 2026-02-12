@@ -9,17 +9,9 @@ export const NAVBAR_CONTENT = {
 
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
-  title: "Engenheiro de Software",
-  brief: `Olá, tenho 29 anos e mais de 5 anos de estrada na tecnologia, minha base técnica vem das Telecomunicações e se consolida hoje na graduação em Análise e Desenvolvimento de Sistemas.
-  
-  No meu dia a dia, foco no desenvolvimento de soluções modernas e escaláveis. Minha stack principal gira em torno de Python, JavaScript e TypeScript, unindo a lógica de backend com a interatividade de frontend.
-  
-  Mas não é só sobre código: tenho forte vivência em metodologias ágeis (Scrum). Gosto de atuar na ponte entre o negócio e a técnica, com atuações pontuais como Product Owner e Scrum Master, sempre visando garantir que o produto final entregue valor real.
-  
-  Impacto Social & Liderança: Além dos projetos corporativos, atuo como Diretor Técnico voluntário na Devmar (Maricá/RJ). Lá, sou responsável pela visão arquitetural e estratégia técnica, usando a tecnologia como ferramenta de transformação social.
-  
-  Certificado OCI Foundations | Foco em Eficiência Operacional | Resolver problemas`
-};
+  title: "Software Engineer | DevOps & Cloud Engineer",
+  brief: "Especialista em desenvolvimento de software com foco em performance e infraestrutura. Com domínio em Java e Python (FastAPI), projeto APIs de alta disponibilidade e interfaces modernas em React/Next.js. Minha certificação em Oracle Cloud Infrastructure (OCI) me permite desenhar soluções que otimizam recursos e reduzem custos operacionais. Se você busca uma entrega técnica de alto nível, com código limpo e arquitetura pensada para escalabilidade, estou pronto para viabilizar seu projeto."
+} 
 
 export const ABOUT_ME = ``
 

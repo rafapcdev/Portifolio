@@ -14,17 +14,13 @@ function Hero() {
                     <motion.h1 
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
-                    transition={{duration:2, delay:.3}}
-                    className="text-6xl font-thin tracking-tight">{HERO_CONTENT.name}
-                    </motion.h1>
-                    
+                    transition={{duration:1.2, delay:0}}
+                    className="text-6xl font-thin tracking-tight">{HERO_CONTENT.name}</motion.h1>
                     <motion.span 
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
-                    transition={{duration:1.5, delay:.5}}
-                    className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">{HERO_CONTENT.title}
-                    </motion.span>
-
+                    transition={{duration:1.2, delay:.5}}
+                    className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">{HERO_CONTENT.title}</motion.span>
                     <motion.p 
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
@@ -35,7 +31,9 @@ function Hero() {
                     <motion.a
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
-                    transition={{duration:2, delay:1}}
+                    transition={{duration:1.5, delay:1}}
+                    className="font-light tracking-wider max-w-xl">{HERO_CONTENT.brief}</motion.p>
+                    <a
                     className="rounded-2xl p-4 border border-neutral-700 text-2xl font-semibold tracking-tight bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
                     href={cvRafael}
                     target="_blank"
@@ -49,7 +47,7 @@ function Hero() {
                     <motion.img 
                     initial={{x:100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
-                    transition={{duration:1, delay:1.5}}
+                    transition={{duration:1.5, delay:0.5}}
                     className="rounded-4xl grayscale-75 mx-auto" src={imgProfile} alt="Minha foto" />
                 </div>
             </div>
