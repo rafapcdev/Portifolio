@@ -18,9 +18,9 @@ function App() {
       <div className="container mx-auto px-15 lg:px-50 py-10 flex flex-col justify-center">
         <Navbar />
         <Hero />
+        <Projects />
         <Technologies />
         <Softskills />
-        <Projects />
         <Contact />
       </div>
     </div>

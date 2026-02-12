@@ -1,70 +1,118 @@
-import { SepareteContent, SectionTitle,slideXMotion } from "./Utility"
+import { SepareteContent, SectionTitle, slideXMotion } from "./Utility"
 import { PROJECTS_CONTENT } from "../constant/index"
-import { FaGithub } from "react-icons/fa"
 import { LuExternalLink } from "react-icons/lu";
-import {format} from "date-fns"
-import { motion } from "motion/react";
-
+import { format } from "date-fns"
+import { motion, AnimatePresence } from "motion/react";
+import { useState } from "react";
+import Modal from "./Modal";
+import ProjectGallery from "./ProjectGallery";
 
 function Projects() {
+    const [selectedProject, setSelectedProject] = useState(null);
+
     return (
         <SepareteContent>
             <section className="my-10">
                 <SectionTitle>Projetos</SectionTitle>
-                <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 my-10">
+                <div className="flex flex-wrap justify-center gap-6 my-10">
                     {PROJECTS_CONTENT.map((project, index) => {
                         return (
-                            <div key={index} className="flex flex-col gap-2 w-full md:w-1/2 lg:w-1/4">
-                                <motion.h3 
-                                variants={slideXMotion(-100,.1)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                className="text-2xl md:text-3xl font-semibold tracking-tight mb-2">{project.name}</motion.h3>
-                                <motion.ul 
-                                variants={slideXMotion(100,.1)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                className="flex flex-wrap gap-2 text-sm font-thin tracking-tight">
-                                    {
-                                        project.langs && Object.entries(project.langs).map(([key, value], index) => {
-                                            return (
-                                                <li key={index}>
-                                                    <span>{key}: </span>
-                                                    <span>{ (value * 100).toFixed(1) + "%"}</span>
-                                                </li>
-                                            )
-                                        })
-                                    }
-                                </motion.ul>
-                                <motion.span
-                                variants={slideXMotion(-100,.4)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                >{project.description}</motion.span>
-                                
-                                <motion.p
-                                variants={slideXMotion(100,.2)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                className="font-thin"
-                                >Criado: {format(new Date(project.created), "dd/MM/yyyy")} </motion.p>
-                                <motion.p
-                                variants={slideXMotion(-100,.3)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                className="font-thin"
-                                >Ultima atualização: {format(new Date(project.updated), "dd/MM/yyyy")} </motion.p>
-                                <motion.div 
-                                variants={slideXMotion(100,.5)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                className="flex gap-4 text-2xl">
-                                    <a href={project.homepage} target="_blank"><LuExternalLink /></a>
-                                </motion.div>
-                            </div>
+                            <motion.div
+                                key={index}
+                                variants={slideXMotion(-100, index * 0.1)} // Staggered left-to-right slide effect
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: false, amount: 0.2 }}
+                                whileHover={{ scale: 1.02 }}
+                                onClick={() => setSelectedProject(project)}
+                                className="w-full md:w-[45%] lg:w-[30%] bg-neutral-900/50 border border-neutral-800 rounded-2xl p-6 cursor-pointer hover:border-fuchsia-500/50 hover:shadow-lg hover:shadow-fuchsia-500/10 transition-all duration-300 flex flex-col justify-between"
+                            >
+                                <div>
+                                    <h3 className="text-2xl font-semibold tracking-tight mb-3 text-white">
+                                        {project.name}
+                                    </h3>
+                                    <p className="text-neutral-400 text-sm mb-4 line-clamp-3">
+                                        {project.description}
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4">
+                                        {project.langs && Object.keys(project.langs).slice(0, 3).map((key, i) => (
+                                            <span key={i} className="text-xs font-medium px-2 py-1 rounded-full bg-neutral-800 text-neutral-300 border border-neutral-700">
+                                                {key}
+                                            </span>
+                                        ))}
+                                        {project.langs && Object.keys(project.langs).length > 3 && (
+                                            <span className="text-xs font-medium px-2 py-1 rounded-full bg-neutral-800 text-neutral-300 border border-neutral-700">
+                                                +{Object.keys(project.langs).length - 3}
+                                            </span>
+                                        )}
+                                    </div>
+                                </div>
+                                <div className="text-xs text-neutral-500 font-mono mt-auto pt-4 border-t border-neutral-800/50">
+                                    Atualizado: {format(new Date(project.updated), "dd/MM/yyyy")}
+                                </div>
+                            </motion.div>
                         )
                     })}
                 </div>
+
+                <AnimatePresence>
+                    {selectedProject && (
+                        <Modal onClose={() => setSelectedProject(null)}>
+                            <div className="flex flex-col gap-6">
+                                {/* Header */}
+                                <div>
+                                    <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent mb-2">
+                                        {selectedProject.name}
+                                    </h2>
+                                    <div className="flex flex-wrap items-center gap-4 text-sm text-neutral-400">
+                                        <span>Criado: {format(new Date(selectedProject.created), "dd/MM/yyyy")}</span>
+                                        <span>|</span>
+                                        <span>Atualizado: {format(new Date(selectedProject.updated), "dd/MM/yyyy")}</span>
+                                    </div>
+                                </div>
+
+                                {/* Description */}
+                                <p className="text-neutral-300 leading-relaxed text-lg whitespace-pre-line">
+                                    {selectedProject.description}
+                                </p>
+
+                                {/* Technologies */}
+                                <div>
+                                    <h4 className="text-lg font-semibold text-white mb-3">Tecnologias</h4>
+                                    <div className="flex flex-wrap gap-2">
+                                        {selectedProject.langs && Object.entries(selectedProject.langs).map(([key, value], index) => (
+                                            <div key={index} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-neutral-800/50 border border-neutral-700">
+                                                <span className="font-medium text-fuchsia-400">{key}</span>
+                                                <span className="text-xs text-neutral-500">{(value * 100).toFixed(0)}%</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                {/* Link */}
+                                {selectedProject.homepage && (
+                                    <div className="flex justify-start">
+                                        <a
+                                            href={selectedProject.homepage}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center gap-2 px-6 py-3 rounded-xl bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-semibold transition-colors shadow-lg shadow-fuchsia-900/20"
+                                        >
+                                            <LuExternalLink />
+                                            Visitar Projeto
+                                        </a>
+                                    </div>
+                                )}
+
+                                {/* Image Gallery */}
+                                <div className="mt-4 pt-6 border-t border-neutral-800">
+                                    <h4 className="text-lg font-semibold text-white mb-4">Galeria do Projeto</h4>
+                                    <ProjectGallery media={selectedProject.images} />
+                                </div>
+                            </div>
+                        </Modal>
+                    )}
+                </AnimatePresence>
             </section>
         </SepareteContent>
     )

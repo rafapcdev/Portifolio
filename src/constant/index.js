@@ -1,11 +1,33 @@
+import cpnu1 from "../assets/CPNU1.png";
+import cpnu2 from "../assets/CPNU2.png";
+import cpnu3 from "../assets/CPNU3.png";
+import cpnu4 from "../assets/CPNU4.png";
+import cpnu5 from "../assets/CPNU5.png";
+import cpnu6 from "../assets/CPNU6.png";
+import cpnu7 from "../assets/CPNU7.png";
+import taskmasterVideo from "../assets/taskmaster.mp4";
+import churraspyVideo from "../assets/churraspy.mp4";
+import oneOracle1 from "../assets/one-oracle1.png";
+import oneOracle2 from "../assets/one-oracle2.png";
+import reprotrack1 from "../assets/repotrak1.png";
+import reprotrack2 from "../assets/repotrak2.png";
+import reprotrack3 from "../assets/repotrack3.png";
+import reprotrack4 from "../assets/repotrack4.png";
+import reprotrack5 from "../assets/reprotrak5.png";
+import reprotrack6 from "../assets/repotrack6.png";
+import reprotrack7 from "../assets/repotrack7.png";
+import reprotrack8 from "../assets/repotrack8.png";
+
 export const NAVBAR_CONTENT = {
   logo: "RC",
   links: {
     linkedin: "http://www.linkedin.com/in/rafaelpereiracostaa",
     github: "https://github.com/rafapcdev",
   }
-
 }
+
+
+
 
 export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
@@ -29,7 +51,8 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-07-01T17:47:26.000Z",
     "updated": "2025-10-03T00:46:01.000Z",
-    "homepage": "https://www.consultacpnu.com.br/"
+    "homepage": "https://www.consultacpnu.com.br/",
+    "images": [cpnu1, cpnu2, cpnu3, cpnu4, cpnu5, cpnu6, cpnu7]
   },
   {
     "name": "TaskMaster",
@@ -42,7 +65,8 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-04-01T17:47:26.000Z",
     "updated": "2025-04-03T00:46:01.000Z",
-    "homepage": "https://taskmaster-theta-gray.vercel.app/"
+    "homepage": "https://taskmaster-theta-gray.vercel.app/",
+    "images": [taskmasterVideo]
   },
   {
     "name": "churraspy",
@@ -56,7 +80,8 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-10T14:49:35.000Z",
     "updated": "2025-04-02T13:23:43.000Z",
-    "homepage": "https://github.com/rafapcdev/churraspy"
+    "homepage": "https://github.com/rafapcdev/churraspy",
+    "images": [churraspyVideo]
   },
   {
     "name": "Portfolio",
@@ -80,7 +105,8 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-16T23:56:20.000Z",
     "updated": "2025-03-08T01:48:25.000Z",
-    "homepage": "https://github.com/rafapcdev/app_fazenda"
+    "homepage": "https://github.com/rafapcdev/app_fazenda",
+    "images": [reprotrack1, reprotrack2, reprotrack3, reprotrack4, reprotrack5, reprotrack6, reprotrack7, reprotrack8]
   },
   {
     "name": "One-Oracle",
@@ -93,7 +119,8 @@ export const PROJECTS_CONTENT = [
     },
     "created": "2025-02-17T14:19:50.000Z",
     "updated": "2025-03-01T19:50:44.000Z",
-    "homepage": "https://one-oracle.netlify.app/"
+    "homepage": "https://one-oracle.netlify.app/",
+    "images": [oneOracle1, oneOracle2]
   }
 ]
 
