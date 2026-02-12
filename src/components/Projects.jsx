@@ -5,6 +5,7 @@ import { format } from "date-fns"
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
 import Modal from "./Modal";
+import ProjectGallery from "./ProjectGallery";
 
 function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -103,25 +104,10 @@ function Projects() {
                                     </div>
                                 )}
 
-                                {/* Image Gallery Placeholder */}
+                                {/* Image Gallery */}
                                 <div className="mt-4 pt-6 border-t border-neutral-800">
                                     <h4 className="text-lg font-semibold text-white mb-4">Galeria do Projeto</h4>
-                                    {selectedProject.images && selectedProject.images.length > 0 ? (
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                            {selectedProject.images.map((img, idx) => (
-                                                <img 
-                                                    key={idx} 
-                                                    src={img} 
-                                                    alt={`${selectedProject.name} screenshot ${idx + 1}`} 
-                                                    className="rounded-xl border border-neutral-800 w-full h-auto object-cover hover:scale-[1.02] transition-transform"
-                                                />
-                                            ))}
-                                        </div>
-                                    ) : (
-                                        <div className="flex flex-col items-center justify-center py-12 px-4 border-2 border-dashed border-neutral-800 rounded-xl bg-neutral-900/30">
-                                            <p className="text-neutral-500 text-center">Nenhuma imagem adicionada ainda.</p>
-                                        </div>
-                                    )}
+                                    <ProjectGallery media={selectedProject.images} />
                                 </div>
                             </div>
                         </Modal>
