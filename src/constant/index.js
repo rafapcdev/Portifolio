@@ -7,6 +7,9 @@ import cpnu6 from "../assets/CPNU6.png";
 import cpnu7 from "../assets/CPNU7.png";
 import taskmasterVideo from "../assets/taskmaster.mp4";
 import churraspyVideo from "../assets/churraspy.mp4";
+import conciliacaoBancaria1 from "../assets/conciliacao-bancaria.mp4";
+import siteStartCooper1 from "../assets/site-start-coop.mp4";
+import freela2eng from "../assets/freela 2eng-solutions.mp4";
 import oneOracle1 from "../assets/one-oracle1.png";
 import oneOracle2 from "../assets/one-oracle2.png";
 import reprotrack1 from "../assets/repotrak1.png";
@@ -33,13 +36,13 @@ export const HERO_CONTENT = {
   name: "Rafael Pereira Costa",
   title: "Software Engineer | DevOps & Cloud Engineer",
   brief: "Especialista em desenvolvimento de software com foco em performance e infraestrutura. Com domínio em Java e Python (FastAPI), projeto APIs de alta disponibilidade e interfaces modernas em React/Next.js. Minha certificação em Oracle Cloud Infrastructure (OCI) me permite desenhar soluções que otimizam recursos e reduzem custos operacionais. Se você busca uma entrega técnica de alto nível, com código limpo e arquitetura pensada para escalabilidade, estou pronto para viabilizar seu projeto."
-} 
+}
 
 export const ABOUT_ME = ``
 
 
 export const PROJECTS_CONTENT = [
-   {
+  {
     "name": "CPNU Analytics - Sistema de Classificação e Estimativa",
     "description": "Aplicação web completa desenvolvida em equipe entre eu e meu irmao (Matheus Pereira Costa, Analista de Dados) para auxiliar candidatos do Concurso Público Nacional Unificado (CPNU) a monitorarem suas posições. O diferencial do projeto é a utilização de um modelo de Inteligência Artificial que processa grandes volumes de dados públicos e interações dos usuários para gerar estimativas de nota e previsões de classificação em tempo real com maior precisão.",
     "url": "",
@@ -101,7 +104,7 @@ export const PROJECTS_CONTENT = [
     "url": "",
     "langs": {
       "React Native": 1
-      
+
     },
     "created": "2025-02-16T23:56:20.000Z",
     "updated": "2025-03-08T01:48:25.000Z",
@@ -121,7 +124,49 @@ export const PROJECTS_CONTENT = [
     "updated": "2025-03-01T19:50:44.000Z",
     "homepage": "https://one-oracle.netlify.app/",
     "images": [oneOracle1, oneOracle2]
-  }
+  },
+  {
+    "name": "Conciliacao Bancaria",
+    "description": "sistema web de conciliação bancária para um cliente institucional, com foco em organização financeira, rastreabilidade e exportação em XML no padrão SIGFIS (TCE-RJ). O projeto foi construído com Next.js, TypeScript e Supabase, incluindo autenticação segura, dashboard operacional, gestão de contas, histórico de conciliações e cálculos automáticos para reduzir erros manuais e acelerar o fechamento contábil.",
+    "url": "https://nextjs-sable-one-17.vercel.app/",
+    "langs": {
+      "Next.js": 0.60,
+      "SQL": 0.25,
+      "Tailwind CSS": 0.15
+    },
+    "created": "2026-01-17T14:19:50.000Z",
+    "updated": "2026-02-21T19:50:44.000Z",
+    "homepage": "https://nextjs-sable-one-17.vercel.app/",
+    "images": [conciliacaoBancaria1]
+  },
+  {
+    "name": "LandPage para uma cooperativa de tecnologia",
+    "description": "Landing page de alto impacto visual desenvolvida com React, TypeScript, Tailwind e GSAP, focada em performance, autoridade digital e geração de novos clientes",
+    "url": "https://site-start-cooper.vercel.app/",
+    "langs": {
+      "javascript": 0.10,
+      "React": 0.25,
+      "Tailwind CSS": 0.15,
+      "GSAP": 0.60
+    },
+    "created": "2026-01-17T14:19:50.000Z",
+    "updated": "2026-02-21T19:50:44.000Z",
+    "homepage": "https://site-start-cooper.vercel.app/",
+    "images": [siteStartCooper1]
+  },
+  {
+    "name": "landPage para 2ng servicos",
+    "description": "Desenvolvimento de uma plataforma web institucional completa para a 2ENG Serviços, uma empresa especializada em engenharia condominial com atuação na Barra da Tijuca, Rio de Janeiro. O objetivo principal foi modernizar a presença digital da empresa, traduzindo seus mais de 30 anos de experiência no mercado para uma interface moderna, intuitiva e de alta conversão.",
+    "url": "https://2engservicos.com.br/",
+    "langs": {
+      "javascript": 0.60,
+      "Tailwind CSS": 0.40
+    },
+    "created": "2026-01-17T14:19:50.000Z",
+    "updated": "2026-02-21T19:50:44.000Z",
+    "homepage": "https://2engservicos.com.br/",
+    "images": [freela2eng]
+  },
 ]
 
 export const CONTACT_CONTENT = {
