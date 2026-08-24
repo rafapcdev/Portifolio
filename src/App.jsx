@@ -1,4 +1,3 @@
-import About from "./components/About"
 import Contact from "./components/Contact"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -6,6 +5,9 @@ import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 import { useLight } from "./context/useLight"
 import Softskills from "./components/Softskills"
+import About from "./components/About"
+import Experiences from "./components/Experiences"
+import Education from "./components/Education"
 
 
 function App() {
@@ -15,13 +17,18 @@ function App() {
   
   return (
     <div className= {lightMode ? bgDark : bgLight}>
-      <div className="container mx-auto px-15 lg:px-50 py-10 flex flex-col justify-center">
+      <div className="container mx-auto px-5 sm:px-8 lg:px-16 xl:px-24 py-6 sm:py-10 flex flex-col justify-center">
         <Navbar />
+        <main>
         <Hero />
+        <About />
+        <Education />
+        <Experiences />
         <Projects />
         <Technologies />
         <Softskills />
         <Contact />
+        </main>
       </div>
     </div>
   )

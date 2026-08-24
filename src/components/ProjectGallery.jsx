@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion as Motion, AnimatePresence } from "motion/react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const variants = {
@@ -35,7 +35,7 @@ function ProjectGallery({ media }) {
   // then wrap that within 0-2 to find our image ID in the array below. By passing an
   // absolute page index as the `motion` component's `key` prop, `AnimatePresence` will
   // detect it as an entirely new image. So you can infinitely paginate as few as 1 images.
-  const imageIndex = Math.abs(page % media.length);
+  const imageIndex = media?.length ? Math.abs(page % media.length) : 0;
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
@@ -55,7 +55,7 @@ function ProjectGallery({ media }) {
   return (
     <div className="relative w-full h-[300px] md:h-[500px] flex justify-center items-center overflow-hidden rounded-xl bg-black/50 border border-neutral-800">
       <AnimatePresence initial={false} custom={direction}>
-        <motion.div
+        <Motion.div
           key={page}
           src={currentMedia}
           custom={direction}
@@ -70,7 +70,7 @@ function ProjectGallery({ media }) {
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
           dragElastic={1}
-          onDragEnd={(e, { offset, velocity }) => {
+          onDragEnd={(_, { offset, velocity }) => {
             const swipe = swipePower(offset.x, velocity.x);
 
             if (swipe < -swipeConfidenceThreshold) {
@@ -82,21 +82,21 @@ function ProjectGallery({ media }) {
           className="absolute w-full h-full flex items-center justify-center"
         >
              {isVideo ? (
-                <video 
-                    src={currentMedia} 
-                    controls 
+                <video
+                    src={currentMedia}
+                    controls
                     className="w-full h-full object-contain"
                 />
             ) : (
-                <img 
-                    src={currentMedia} 
-                    alt="Project media" 
+                <img
+                    src={currentMedia}
+                    alt="Mídia do projeto"
                     className="w-full h-full object-contain pointer-events-none" // pointer-events-none to prevent dragging image ghost
                 />
             )}
-        </motion.div>
+        </Motion.div>
       </AnimatePresence>
-      
+
       {media.length > 1 && (
         <>
             <div className="next" onClick={() => paginate(1)}>
@@ -111,7 +111,7 @@ function ProjectGallery({ media }) {
             </div>
         </>
       )}
-      
+
       {/* Dots indicator */}
       {media.length > 1 && (
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
