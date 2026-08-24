@@ -1,16 +1,16 @@
-import { motion } from "motion/react";
+import { motion as Motion } from "motion/react";
 import { IoClose } from "react-icons/io5";
 
 const Modal = ({ onClose, children }) => {
   return (
-    <motion.div
+    <Motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       onClick={onClose}
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
     >
-      <motion.div
+      <Motion.div
         initial={{ scale: 0.9, opacity: 0, y: 50 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.9, opacity: 0, y: 50 }}
@@ -24,8 +24,8 @@ const Modal = ({ onClose, children }) => {
           <IoClose size={24} />
         </button>
         {children}
-      </motion.div>
-    </motion.div>
+      </Motion.div>
+    </Motion.div>
   );
 };
 

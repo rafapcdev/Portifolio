@@ -1,29 +1,20 @@
 import { SepareteContent, SectionTitle, slideXMotion } from "./Utility"
 import { ABOUT_ME } from "../constant"
-import { motion } from "motion/react"
+import { motion as Motion } from "motion/react"
 
 function About() {
     return (
 
         <SepareteContent>
-            <section className="flex flex-col gap-20 my-10">
+            <section id="sobre" className="flex flex-col gap-10 my-14 sm:my-20">
                 <SectionTitle><span className="text-neutral-500">Sobre </span>{" "}mim </SectionTitle>
-                <div className="flex flex-col md:flex-row items-center gap-10">
-                    <div className="w-full lg:w-1/3">
-                        <motion.img
-                            variants={slideXMotion(-100,.25)}
-                            initial={"hidden"}
-                            whileInView={"visible"}
-                            className="rounded-4xl mx-auto grayscale-25" src={aboutImg} alt="foto secundaria" />
-                    </div>
-                    <motion.div
-                        variants={slideXMotion(100,.5)}
+                <Motion.div
+                        variants={slideXMotion(-100,.25)}
                         initial={"hidden"}
                         whileInView={"visible"}
-                        className="w-full lg:w-1/2">
-                        <span className="font-light tracking-wide whitespace-pre-line ">{ABOUT_ME}</span>
-                    </motion.div>
-                </div>
+                        className="mx-auto max-w-4xl rounded-2xl border border-neutral-700/70 bg-neutral-900/20 p-6 sm:p-8">
+                        <p className="font-light leading-8 tracking-wide whitespace-pre-line">{ABOUT_ME}</p>
+                    </Motion.div>
             </section>
         </SepareteContent>
     )

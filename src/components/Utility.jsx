@@ -1,4 +1,4 @@
-import {motion} from "motion/react"
+import { motion as Motion } from "motion/react"
 
 export function SepareteContent({ children }) {
     return (
@@ -10,13 +10,13 @@ export function SepareteContent({ children }) {
 
 export function SectionTitle({ children }) {
     return (
-        <motion.h2
+        <Motion.h2
             variants={slideYMotion(-100,0)}
             initial={"hidden"}
             whileInView={"visible"}
-            className="text-4xl lg:text-5xl text-center">
+            className="text-3xl sm:text-4xl lg:text-5xl text-center">
             {children}
-        </motion.h2>
+        </Motion.h2>
     )
 }
 
@@ -30,6 +30,7 @@ export function SectionContainer({ children }) {
     )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function slideXMotion(xInit, delay) {
     return {
         "hidden": {opacity:0, x:xInit},
@@ -39,6 +40,7 @@ export function slideXMotion(xInit, delay) {
 }
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function slideYMotion(yInit, delay) {
     return {
         "hidden": {opacity:0, y:yInit},
